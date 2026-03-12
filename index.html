@@ -2057,11 +2057,12 @@ Distribución LATAM</h3>
 
 
       /* ======= CARRUSEL AL FINAL ======= */
-      {
-        name: 'BOLETÍN MARZO ',
-        wide: true,                 // <- hace la tarjeta de ancho completo
-        body: `
-<x-carousel-card aspect="16/9" autoplay interval="8000">
+{
+  name: 'BOLETÍN MARZO ',
+  wide: true,
+  body: `
+<x-carousel-card autoplay interval="8000" style="height:auto;">
+
   <span slot="title">
     <a href="BOLETIN_MARZO.pdf" download 
       style="color:#60a5fa; text-decoration:none; font-weight:700;">
@@ -2077,22 +2078,20 @@ Distribución LATAM</h3>
     </span>
   </span>
 
-  
-
-  <img src=" https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0001_pchkqz.jpg  " alt="Boletín 0">
-  <img src="  https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0002_s50xow.jpg   " alt="Boletín 1">
-  <img src="  https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0003_fd6pxz.jpg " alt="Boletín 2">
-  <img src="  https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351706/Instalaciones_2_26_rev3_page-0004_xoifgs.jpg  " alt="Boletín 3">
-  <img src="  https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351705/Instalaciones_2_26_rev3_page-0005_vemhna.jpg  " alt="Boletín 4">
-  <img src=" https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351705/Instalaciones_2_26_rev3_page-0006_ebptbq.jpg " alt="Boletín 5">
-  <img src="   https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0007_dnkeqm.jpg " alt="Boletín 6">
-  <img src="   https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0008_yvaexg.jpg " alt="Boletín 7">
-  <img src="   https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0009_jeniq8.jpg  " alt="Boletín 8">
-  
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0001_pchkqz.jpg" alt="Boletín 0" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0002_s50xow.jpg" alt="Boletín 1" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0003_fd6pxz.jpg" alt="Boletín 2" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351706/Instalaciones_2_26_rev3_page-0004_xoifgs.jpg" alt="Boletín 3" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351705/Instalaciones_2_26_rev3_page-0005_vemhna.jpg" alt="Boletín 4" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351705/Instalaciones_2_26_rev3_page-0006_ebptbq.jpg" alt="Boletín 5" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0007_dnkeqm.jpg" alt="Boletín 6" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0008_yvaexg.jpg" alt="Boletín 7" style="width:100%; height:auto; object-fit:contain;">
+  <img src="https://res.cloudinary.com/dzhdbkyyf/image/upload/v1773351704/Instalaciones_2_26_rev3_page-0009_jeniq8.jpg" alt="Boletín 8" style="width:100%; height:auto; object-fit:contain;">
 
   <span slot="caption">Desliza para ver todos los boletines.</span>
+
 </x-carousel-card>`
-      },
+},
 
 {
         name: 'Monitores - Servicio Técnico - Electromenor',
